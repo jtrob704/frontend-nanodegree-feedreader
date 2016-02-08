@@ -101,7 +101,7 @@ $(function () {
             // compare previous feed to new feed
             loadFeed(0, function () {
                 previousFeed = $('.feed').html();
-                loadFeed(1, done)
+                loadFeed(1, done);
             });
         });
         /* TODO: Write a test that ensures when a new feed is loaded
